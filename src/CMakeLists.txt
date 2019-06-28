@@ -27,14 +27,14 @@ include(${wxWidgets_USE_FILE})
 
 # Define a variable containing a list of source files for the project
 set(SRC_FILES
-        gui/minimal.cpp
+        main.cpp
         core/BoardController.cpp
         core/BoardController.h
         core/ConfigManager.cpp
         core/ConfigManager.h
         core/ScoreController.cpp
         core/ScoreController.h
-        gui/MainWindow.cpp gui/MainWindow.h)
+        gui/MainFrame.cpp gui/MainFrame.h)
 
 if(WIN32)
     # Include a RC file for windows
